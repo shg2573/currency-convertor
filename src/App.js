@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Input from './components/Input';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='text-red-600 bg-gradient-to-tr from-black  via-slate-900  to-black  h-screen w-screen'>
+        <div className='h-24 w-40'><Input {..."From"}/></div>
+      </div>
     </div>
   );
 }
